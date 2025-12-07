@@ -1,4 +1,4 @@
-from exercise8.pro import product_details
+from product import product_details
 def test_product_details():
     expected_output = {
         "Product ID":"P101",
