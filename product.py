@@ -1,2 +1,7 @@
 def product_details(pid, name, qty, price):
-    return f"Product ID: {pid}\nProduct Name: {name}\nQuantity: {qty}\nPrice: {price}"
+    return {
+        "Product ID": pid,
+        "Product Name": name,
+        "Quantity": qty,
+        "Price": price
+    }
